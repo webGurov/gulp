@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Стартовый шаблон</title>
+		<meta name="description" content="Краткое описание страницы, которое будет отображаться в результатах поиска." />
+		<meta name="keywords" content="ключевое слово 1, ключевое слово 2, ключевое слово 3" />
+		<meta name="author" content="Ваше имя или название компании" />
+		<meta http-equiv="cache-control" content="max-age=1800" />
+		<meta http-equiv="refresh" content="30" />
+		<meta name="theme-color" content="#317EFB" />
+		<meta property="og:title" content="Заголовок страницы" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://example.com/page.html" />
+		<meta property="og:image" content="https://example.com/image.jpg" />
+		<meta property="og:description" content="Описание страницы, которое будет отображаться в социальных сетях." />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Заголовок страницы" />
+		<meta name="twitter:description" content="Описание страницы" />
+		<meta name="twitter:image" content="https://example.com/image.jpg" />
+		<meta name="language" content="ru" />
+		<meta name="robots" content="index, nofollow" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+	</head>
+<body class="website" id="website">
+	<!-- Подключаем header -->
+	@@include('blocks/header.html')
+	<div class="website__layout">
+		<main class="website__main main" id="main">
+			<div class="main__wrapper">
+				<!-- Подключаем основной контент сайта -->
+			</div>
+		</main>
+	</div>
+	<!-- Подключаем footer -->
+	@@include('blocks/footer.html')
+	<script src="./js/index.bundle.js"></script>
+</body>
+</html>

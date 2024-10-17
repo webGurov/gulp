@@ -1,0 +1,58 @@
+:root {
+	// container var
+	--container-width: 1190px;
+	--container-padding: 15px;
+	// fonts var
+	--font-primary: "Nunito", sans-serif;
+	// colors var
+	--color-background: #fff; 				/* основной фоновый цвет */
+	--color-background-secondary: #FAFBFE; /* основной фоновый второчный цвет */
+	--color-foreground: #F9E548; 			/* дополнительный фоновый цвет */
+	--color-foreground-secondary: #EAEDF1; /* дополнительный фоновый вторичный цвет */
+	--color-text: #212121; 				/* основной цвет текста */
+	--color-text-secondary: #848589; 		/* основной цвет вторичного текста */
+	--color-border: #EFEFEF; 				/* цвет обводки */
+	--color-border-secondary: #b3b3b3; 	/* цвет вторичной обводки */
+	--color-ghost: #eef2f7; 				/* полупрозрачный цвет */
+	--color-ghost-secondary: #cbd7e7; 		/* полупрозрачный вторичный цвет */
+	--color-primary: #EA4997; 				/* основной акцентный цвет */
+	--color-primary-secondary: #F9E449;	/* вторичный акцентный цвет */
+	--color-card: #fff; 					/* основной фоновый цвет блока */
+	--color-card-secondary: #ccc; 			/* основной фоновый цвет вторичного блока */
+	--color-link: #44badc; 				/* основной цвет ссылки */
+
+	// rounded var
+	--rounded-sm: 4px;						
+	--rounded-md: 8px;
+	--rounded-lg: 12px;
+	--rounded-xl: 16px;
+}
+
+.dark {
+	// container var
+	--container-width: 1190px;
+	--container-padding: 15px;
+	// fonts var
+	--font-primary: "Nunito", sans-serif;
+	// colors var
+	--color-background: #fff; 				/* основной фоновый цвет */
+	--color-background-secondary: #FAFBFE; /* основной фоновый второчный цвет */
+	--color-foreground: #F9E548; 			/* дополнительный фоновый цвет */
+	--color-foreground-secondary: #EAEDF1; /* дополнительный фоновый вторичный цвет */
+	--color-text: #212121; 				/* основной цвет текста */
+	--color-text-secondary: #848589; 		/* основной цвет вторичного текста */
+	--color-border: #EFEFEF; 				/* цвет обводки */
+	--color-border-secondary: #b3b3b3; 	/* цвет вторичной обводки */
+	--color-ghost: #eef2f7; 				/* полупрозрачный цвет */
+	--color-ghost-secondary: #cbd7e7; 		/* полупрозрачный вторичный цвет */
+	--color-primary: #EA4997; 				/* основной акцентный цвет */
+	--color-primary-secondary: #F9E449;	/* вторичный акцентный цвет */
+	--color-card: #fff; 					/* основной фоновый цвет блока */
+	--color-card-secondary: #ccc; 			/* основной фоновый цвет вторичного блока */
+	--color-link: #44badc; 				/* основной цвет ссылки */
+		// rounded var
+	--rounded-sm: 4px;
+	--rounded-md: 8px;
+	--rounded-lg: 12px;
+	--rounded-xl: 16px;
+}
